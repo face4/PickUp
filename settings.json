@@ -1,0 +1,6 @@
+{
+    "pickup" : [
+        "\\d[^/]*/answer_python3/main.py",
+        "\\d[^/]*/[a-zA-Z.]*md"
+    ]
+}
