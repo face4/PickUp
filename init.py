@@ -21,7 +21,7 @@ def walk(location):
             p = Path(concat(work_name, ""))
             if not p.exists():
                 p.mkdir(parents=True)
-            p = Path(str(p) + "/" + f.name)
+            p = Path(concat(work_name, f.name))
             target_name = concat(origin_name, f.name)
             p.symlink_to(target_name)
             print("pick:" + target_name)
